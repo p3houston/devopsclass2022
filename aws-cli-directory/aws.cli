@@ -1,0 +1,6 @@
+## create ec2 instance from AMI 
+aws ec2 run-instances --image-id ami-0b187255934c5ab96 --instance-type t2.micro --subnet-id subnet-00d46765328006b7a 
+--security-group-ids  sg-0ea5a590c3d8b9ec1 --key-name devopstrainingbyoje2
+
+## Describe ec2 instance
+aws describe-instances --instance-ids i-00c655bc40258e709C
